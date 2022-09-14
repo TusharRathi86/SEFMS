@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>::Insurance::</title>
+<!-----------bootstrap css----->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <!--------------------normalize css----------------->
+   
+<!-------------style css--------->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-------responsive csss---------------->
+<!--------WOW CSS-------------->
+</head>
+
+<header>
+<nav class="navbar navbar-inverse menu navbar-fixed-top ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle tog" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+      <a class="navbar-brand" href="index.html"> <img   src="images/Logo2.png"></a>
+     
+    </div>
+    <div class="container">
+    <div class="row">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav menu-title   navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class=""><a href="index.html">About Us</a></li>
+
+         <li><a href="index.html">SERVICES</a></li>
+        <li><a href="contact-us.html">CONTACT US</a></li>
+      </ul>
+     </div>
+    </div>
+    </div>
+  </div>
+</nav>
+</header>
+<body>
+  <div class="clearfix"></div>
+  <!-------contact us section-------------->
+  <section id="contact">
+  <div class="container">
+  <div class="row">
+			<div class="section-content">
+            <div class="col-md-12 text-center heading">
+<h1>Contact <span class="section-tittle" style="color:#01acf1; font-weight:bold;">US </span></h1>
+</div>
+				
+			</div>
+			<div class="contact-section">
+			<div class="container">
+             <div class="row">
+				<form>
+                
+					<div class=" form-line">
+			  			<div class="form-group">
+			  				<label for="exampleInputUsername">Your name</label>
+					    	<input type="text" class="form-control" id="" placeholder=" Enter Name">
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="exampleInputEmail">Email Address</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+					  	</div>	
+                        <div class="form-group">
+  <label for="usr">Contact No:</label>
+  <input type="text" class="form-control" id="usr" placeholder="Enter Number">
+</div>
+					  	
+  <label >Select Category:</label>
+  <select class="form-control" >
+  <option >Select</option>
+    <option>Claim denied by Insurance Company</option>
+    <option>Full Claim has not been paid by the Insurance Company Delayed Settlement 
+</option>
+    <option>No Response or Clear Communication from Insurance Company</option>
+    <option>Other</option>
+  </select>
+
+                        <div class="form-group">
+			  				<label for="description">Brief about the matter:</label>
+			  			 	<textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+			  			</div>
+			  		</div>
+			  		
+			  			<div class="button-send text-center">
+
+			  				<a href="thankyou.html"><button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button></a>
+			  			</div>
+			  		
+				</form>
+                </div>
+			</div>
+		</div>
+        </div>
+        </div>
+        </section>
+<!-----end------>
+    
+<footer>
+<div class=" container">
+<div class="row text-center">
+<div class="social-menu">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-instagram"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-youtube"></span></a>
+                    </div>
+                    <div class="space-20"></div>
+<p style="color:white;">© 2018. All Rights Reserved.</p>
+</div>
+</div>
+
+<!-------bootstrap js---------------->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});  
+  </script>
+
+  <script>
+	 $(window).load( function() {
+  setTimeout( function() {
+    $(".loader-bg").fadeOut();
+  }, 2000 );
+});
+$(window).scroll(function(){
+		if ($(this).scrollTop() > 200) {
+			$('.scroll-top').fadeIn();
+		} else {
+			$('.scroll-top').fadeOut();
+		}
+	});
+	
+         $(document).ready(function() {
+         $('.carousel').carousel({
+          interval:7000,
+          pause: false
+        })
+      });
+    $(document).ready(function(){ $('.map-container') .click(function(){ $(this).find('iframe').addClass('clicked')}) .mouseleave(function(){ $(this).find('iframe').removeClass('clicked')}); });
+
+        </script>
+  
+</footer>
+
+</body>
+</html>

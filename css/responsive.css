@@ -1,0 +1,295 @@
+/* MAX 1170 */
+@media only screen and (max-width: 1170px) {
+.jk_buttons li {
+    padding: 6px 45px;
+	}
+.car_img img {
+    top: 48px;
+    left: -53px;
+}
+.carReservation h3 {
+    font-size: 16px;
+}
+
+
+}
+/* MAX 1024 */
+@media only screen and (max-width: 1024px) {
+.car_img img {
+	top: 67px;
+}
+.carReservation h3.pay {
+    width: 77%;
+}
+.jk_buttons li {
+    padding: 6px 45px;
+	}
+}
+/* MAX 970 */
+@media only screen and (max-width: 970px) {
+.jk_buttons li {
+    padding: 6px 9px;
+	}
+.car_img img {
+	left: 0px;
+	top: 10px;
+}
+.carReservation h3 {
+    font-size: 12px;
+}
+.services_contaioner {
+    margin-right: -200px;
+    padding-left: 100px;
+}
+.fm {
+    width: 50%;
+}
+.map {
+    width: 100%;
+}
+.section-padding {
+    background: none;
+}
+.map iframe {
+    width: 100%;
+}
+.section-contact {
+    background: #f3f3f3;
+}
+
+}
+
+/* MAX 800 */
+@media only screen and (max-width: 800px) {
+.reg {
+    width: 18%;
+}
+.services_contaioner {
+    padding-left: 80px;
+}
+.map {
+    width: 100%;
+	padding-left: 40px;
+}
+.carReservation h3.pay {
+    width: 100%;
+}
+.from_text h4 {
+    width: 30%;
+}
+}
+/* MAX 768 */
+@media only screen and (max-width: 768px){
+.services_contaioner {
+    padding-left: 50px;
+}
+}
+/* MAX 668 */
+@media only screen and (max-width: 668px) {
+.jk_buttons li {
+    margin-left: 2px;
+}
+.special p {
+    padding-left: 6px;
+}
+.map {
+    width: 100%;
+    padding-left: 17px;
+}
+
+
+.fm {
+    width: 98%;
+    margin-left: 8px;
+}
+.res {
+    display: none;
+}
+
+.special h2 {
+    padding-left: 6px;
+}
+.jk_buttons li {
+    padding: 6px 0px;
+	 margin: 10px;
+}
+.from_text h4 {
+    width: 50%;
+}
+.details {
+    font-size: 17px;
+}
+.butoons {
+    padding-top: 44px;
+}
+.tog {
+    margin-top: 18px;
+}
+.services_contaioner {
+    padding-left: 36px;
+}
+
+.MTR_pills_default li {
+    width: 38%;
+}
+}
+/* MAX 480 */
+@media only screen and (max-width: 480px) {
+.tog {
+    margin-top: 14px;
+    padding-top: 10px;
+}
+.manu_right > li > a {
+    padding: 10px 15px;
+}
+.mneu_outer {
+    margin: 0px;
+}
+.fm {
+    width: 97%;
+    margin: 30px 0px 0px 7px;
+}
+
+
+.butoons {
+    padding-right: 10px;
+	padding-top:20px;
+}
+.from_text h4 {
+    width: 45%;
+}
+.jk_buttons li {
+    margin-top: 10px;
+}
+.jk_buttons li {
+    padding: 6px 2px;
+}
+.special img {
+    width: 100%;
+}
+.map {
+    width: 100%;
+	padding: 0px 0px 0px 13px;
+}
+
+/* reservation page */
+.carReservation h3 {
+    width: 100%;
+}
+.carReservation h3.pay {
+    width: 100%;
+}
+.vehicle.special h3 {
+    width: 100%;
+}
+.special h3 {
+    width: 100%;
+}
+.reg {
+    width: 30%;
+}
+.about-circle {
+    display: none;
+}
+.about-content-area .about-content-default .about-content-panel{
+	width:100%;
+}
+.services_contaioner {
+    padding-left: 42px;
+}
+.services_contaioner {
+    margin-right: -127px;
+}
+}
+/* MAX  414*/
+@media only screen and (max-width: 414px) {
+.from_text h4 {
+    width: 50%;
+}
+.jk_buttons li {
+    padding: 0px 70px;
+}
+.about-circle {
+    display: none;
+}
+.about-content-area .about-content-default .about-content-panel{
+	width:100%;
+}
+.carReservation h3 {
+    width: 50%;
+}
+.services_contaioner {
+    margin-right: -56px;
+}
+.services_contaioner {
+    padding-left: 18px;
+}
+.MTR_pills_default li {
+    width: 46%;
+}
+.res {
+    display: none;
+}
+
+}
+/*  MAX 375 */
+@media only screen and (max-width: 375px){
+.from_text h4 {
+    width: 60%;
+}
+.res {
+    display: none;
+}
+
+.jk_buttons li {
+    margin: 20px;
+}
+.carReservation h3 {
+    width: 100%;
+}
+.carReservation ul li {
+    width: 74%;
+}
+.seats_number h3 {
+    width: 100%;
+}
+.special h3 {
+    width: 100%;
+}
+.reg {
+    width: 40%;
+}
+.services_contaioner {
+    margin-right: -52px;
+}
+.services_contaioner {
+    padding-left: 15px;
+}
+}
+/* MAX 320 */
+@media only screen and (max-width: 320px){
+.MTR_pills_default li {
+    width: 94%;
+}
+.jk_buttons li {
+    padding: 0px 17px;
+}
+.xpress_formR {
+    padding: 10px;
+}
+form.xpress_form {
+    padding: 10px;
+}
+
+.res {
+    display: none;
+}
+
+.logo_section img {
+    max-width: 306px;
+}
+.logo_section {
+    padding-left: 4px;
+    padding-top: 17px;
+}
+}
